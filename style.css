@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    overflow: hidden;
+    background: #fcc5c8;
+}
+
+h1 {
+    color: #e74c3c;
+}
+
+h2 {
+    color: #e74c3c;
+    display: none;
+    font-size: 2em;
+}
+
+h3 {
+    color: #e74c3c;
+    display: none;
+    font-size: 2em;
+}
+
+.container {
+    display: block;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+#hiddenMessage {
+    display: none;
+    color: #fff;
+    font-size: 18px;
+    justify-content: center;
+}
+
+#hiddenMessage p{
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    right: -100%; /* Start from the right side outside the screen */
+    transition: right 0.5s ease-in-out;
+    width: 400px;
+    max-width: 100%;
+}
+
+#valentineImgRejection{
+    display: none;
+}
+
+#valentineImgRejection img {
+    width: 200px;
+}
+
+#valentineImgAccept{
+    display: none;
+}
+
+#valentineImgAccept img{
+    width: 200px;
+}
